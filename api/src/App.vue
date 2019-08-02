@@ -1,12 +1,8 @@
 <template>
-  <div class="wrap">
-    <div class="inner">
-      <Header />
-
-      <router-view></router-view>
-
-      <Footer />
-    </div>
+  <div>
+    <Header />
+    <router-view></router-view>
+    <Footer />
   </div>
 </template>
 
@@ -25,8 +21,4 @@ export default {
 </script>
 
 <style>
-.wrap {
-  margin: 0;
-  padding: 0;
-}
 </style>

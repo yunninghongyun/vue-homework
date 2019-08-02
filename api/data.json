@@ -1,0 +1,36 @@
+{
+  "goods": [
+    {
+      "id": "1",
+      "text": "iphone 5",
+      "title": "龙之谷六周年限定礼包Boos冰龙款男士T恤",
+      "price": "￥79.00",
+      "size": "XL",
+      "inventory": 2
+    },
+    {
+      "id": "2",
+      "text": "iphone 5",
+      "title": "龙之谷六周年限定礼包Boos冰龙款男士T恤",
+      "price": "￥79.00",
+      "size": "XL",
+      "inventory": 2
+    },
+    {
+      "id": "3",
+      "text": "iphone 5",
+      "title": "龙之谷六周年限定礼包Boos冰龙款男士T恤",
+      "price": "￥79.00",
+      "size": "XL",
+      "inventory": 2
+    },
+    {
+      "id": "4",
+      "text": "iphone 5",
+      "title": "龙之谷六周年限定礼包Boos冰龙款男士T恤",
+      "price": "￥79.00",
+      "size": "XL",
+      "inventory": 2
+    }
+  ]
+}
