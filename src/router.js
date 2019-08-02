@@ -1,52 +1,53 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Main from './components/Main.vue';
-import Scar from './components/Scar.vue';
-import ShopCart from './components/ShopCart.vue';
-import Order from './components/Order.vue';
-import Pay from './components/Pay.vue';
-import Qr from './components/Qr.vue';
-import Paydone from './components/PayDone.vue';
-import SuccessPay from './components/SuccessPay.vue';
-Vue.use(VueRouter);
+import Vue from 'vue'
+import PUBLICURL from './publicurl'
+import VueRouter from 'vue-router'
+import Main from './components/Main.vue'
+import Scar from './components/Scar.vue'
+import ShopCart from './components/ShopCart.vue'
+import Order from './components/Order.vue'
+import Pay from './components/Pay.vue'
+import Qr from './components/Qr.vue'
+import Paydone from './components/PayDone.vue'
+import SuccessPay from './components/SuccessPay.vue'
+Vue.use(VueRouter)
 const routes = [
   {
     component: Main,
-    path: '/'
+    path: PUBLICURL + '/'
   },
   {
     component: Scar,
-    path: '/scar'
+    path: PUBLICURL + '/scar'
   },
   {
     component: ShopCart,
-    path: '/shopcart'
+    path: PUBLICURL + '/shopcart'
   },
   {
     component: Order,
-    path: '/order'
+    path: PUBLICURL + '/order'
   },
   {
     component: Pay,
-    path: '/pay'
+    path: PUBLICURL + '/pay'
   },
   {
     component: Qr,
-    path: '/qr'
+    path: PUBLICURL + '/qr'
   },
   {
     component: Paydone,
-    path: '/paydone'
+    path: PUBLICURL + '/paydone'
   },
   {
     component: SuccessPay,
-    path: '/successpay'
+    path: PUBLICURL + '/successpay'
   }
-];
+]
 
 const router = new VueRouter({
   routes,
   mode: 'history'
-});
+})
 
-export default router;
+export default router
